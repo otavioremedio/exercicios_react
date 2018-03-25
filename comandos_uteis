@@ -40,3 +40,8 @@ no webpack.config para
 resolve: {
 		extensions: ['','.js','.jsx']
 	},
+
+componente de classe quer um metodo render obrigatório
+
+arrumar o contexto da chamada do metodo do js 
+this.handleChange = this.handleChange.bind(this)
